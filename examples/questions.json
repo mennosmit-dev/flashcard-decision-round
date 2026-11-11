@@ -1,0 +1,10 @@
+{
+  "options": ["keep", "drop", "merge"],
+  "skip": "leave for now",
+  "questions": [
+    {"id": "n1", "kop": "Project Alpha", "q": "Note from 12 Jan: kickoff held. Still useful?"},
+    {"id": "n2", "kop": "Project Alpha", "q": "Note from 30 May: waiting for data from the client. Open loop?", "meta": [{"text": "older than 90 days", "tone": "warn"}]},
+    {"id": "n3", "kop": "Project Beta", "q": "Two notes describe the same meeting. Merge them?"},
+    {"id": "db", "q": "Which database for the prototype?", "options": [{"value": "sqlite", "hint": "one file, no server"}, {"value": "postgres", "hint": "closer to production"}]}
+  ]
+}
